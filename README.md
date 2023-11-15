@@ -2,8 +2,6 @@
 
 <p style="color:#32ce66; font-size: 25px; text-align:center;"> 👋🏼 ¡Bienvenido  Front-end de Fundamentals! 👋🏼 </p>
 
-<p style="color:#00a7d3; font-size: 20px; text-align:center;"> ⚠️  ¡Antes de empezar tu reto lee detenidamente la siguiente información! ⚠️ </p>
-
 ## Descripción general 
 
 # Fronte-end
