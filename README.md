@@ -39,8 +39,6 @@ Los temas que vas a encontrar por sesiones son los siguientes:
 
 Además vas a tener **reto diarios** donde podrá demostrar los conocimientos de la sesión o tema anterior, así mismo un **reto de integración semanal** que cuenta con **con ejercicios prácticos** donde vas a poner en evidencia tus conocimientos de diseño web con HTML y CSS creando una web dinámica integrando Javascript
 
-De esta manera buscamos que tengas los conocimientos mínimos y necesarios.
-
 # 🧪 Recursos  🧪
 - [Comandos básicos de git](https://docs.google.com/presentation/d/1F083fEZTbu1xSqjXlwCsd2OWTz_wKCR4/edit?usp=sharing&ouid=106083708411687794311&rtpof=true&sd=true)
 
