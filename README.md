@@ -41,11 +41,6 @@ Además vas a tener **reto diarios** donde podrá demostrar los conocimientos de
 
 De esta manera buscamos que tengas los conocimientos mínimos y necesarios.
 
-
-<p style="color:#00a7d3; font-size: 20px; text-align:center;"> ⚠️  ¡Debes investigar por tu cuenta, recuerda que Google es tu mejor aliado!⚠️ </p>
-
-
-
 # 🧪 Recursos  🧪
 - [Comandos básicos de git](https://docs.google.com/presentation/d/1F083fEZTbu1xSqjXlwCsd2OWTz_wKCR4/edit?usp=sharing&ouid=106083708411687794311&rtpof=true&sd=true)
 
