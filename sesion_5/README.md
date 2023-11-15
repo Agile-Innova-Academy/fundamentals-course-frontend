@@ -1,4 +1,15 @@
 # ¿Qué es Axios?
+
+Imagina que estás enviando mensajes a tus amigos con una paloma mensajera, pero un día quieres algo más rápido y confiable. Ahí es donde entra Axios, ¡tu nuevo y rápido mensajero mágico en el mundo de la programación!
+
+Axios es como un ayudante que lleva y trae mensajes entre tu aplicación web y otros lugares, como servidores en internet. ¿Recuerdas cuando quieres pedirle a tu mamá un vaso de leche y ella te lo trae? Axios hace algo similar, pero con datos para tu aplicación. Puedes pedirle a Axios que traiga información de un lugar lejano (como un servidor) y te la entrega para que puedas usarla en tu aplicación.
+
+Es como si le dijeras a Axios: "¡Oye, quiero saber cuántos juguetes tiene mi amigo en su casa!", y Axios va rápidamente, pregunta a la casa de tu amigo y te trae la respuesta para que puedas usarla en tu juego.
+
+En resumen, Axios es como tu mensajero mágico en el mundo de la programación que te ayuda a obtener y enviar información entre tu aplicación y otros lugares en internet. ¡Así puedes tener todos los datos que necesitas para que tu aplicación sea genial! 🚀✉️
+
+## Axios a nivel Técnico 
+
 Axios es un cliente HTTP basado en promesas node.js para el navegador. Es isomorfo (= puede ejecutarse en el navegador y nodejs con la misma base de código). En el lado del servidor usa el httpmódulo nativo node.js, mientras que en el cliente (navegador) usa XMLHttpRequests.
 
 ### Características
