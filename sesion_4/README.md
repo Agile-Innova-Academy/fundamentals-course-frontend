@@ -1,9 +1,5 @@
 # 🧪 Fundamentals -Frontend- Sesión 04  🧪
 
-<p style="color:#32ce66; font-size: 25px; text-align:center;"> 👋🏼 ¡Bienvenido  Front-end de Fundamentals! 👋🏼 </p>
-
-<p style="color:#00a7d3; font-size: 20px; text-align:center;"> ⚠️  ¡Antes de empezar tu reto lee detenidamente la siguiente información! ⚠️ </p>
-
 ## Descripción general 
 
 # Fronte-end - Sesión 04
@@ -13,12 +9,45 @@ En este repositorio es destinado a profundizar en los conceptos de JavaScript y 
     - Peticiones HTTP
     - JSON-SERVER
 
-Además vas a tener **reto o Tarea diaria** donde podrá demostrar los conocimientos de la sesión y del tema anterior, donde vas a poner en evidencia tus conocimientos de diseño web con HTML y CSS creando una web dinámica integrando Javascript
+## Peticiones HTTP
 
-De esta manera buscamos que tengas los conocimientos mínimos y necesarios.
+Así que, ¿alguna vez te has preguntado cómo tus juguetes favoritos se comunican entre ellos? ¡Imagina que están enviándose cartas mágicas! 📨✨ En el mundo de la programación, usamos algo llamado **Peticiones HTTP** que son como estas cartas mágicas, ¡pero para que las computadoras hablen entre sí!
 
-<p style="color:#00a7d3; font-size: 20px; text-align:center;"> ⚠️  ¡Debes investigar por tu cuenta, recuerda que Google es tu mejor aliado!⚠️ </p>
+Cuando tu aplicación quiere pedir algo, como una foto de un perrito lindo 🐶, ¡envía una carta mágica llamada "peticioncita HTTP" al servidor que tiene la foto! La carta dice algo como: "**¡Hola servidor, por favor dame la foto del perrito! 📸**". Y luego, el servidor le responde con otra carta mágica que contiene la foto del perrito.
 
+Así es como las computadoras se piden cosas entre sí, ¡como si fueran amigas enviándose mensajes! 🚀
+
+En resumen, las **Peticiones HTTP** son cartas mágicas que tus aplicaciones envían y reciben para pedir y compartir cosas, ¡como fotos de perritos lindos! 💌🐾
+
+## JSON
+
+¿Te gustan los bloques de construcción? 🧱 **JSON es como un conjunto de bloques de información para las computadoras.** 🤖💻
+
+Imagina que tienes una caja mágica, y dentro pones piezas de información sobre tu juguete favorito. 📦🚂 JSON es como esa caja mágica, pero para las computadoras.
+
+Cada pedacito de información dentro de JSON tiene un nombre y un valor, ¡como etiquetas para tus juguetes! Por ejemplo:
+
+```json
+{
+  "nombre": "oso de peluche",
+  "color": "marrón",
+  "tamaño": "pequeño"
+}
+```
+
+Aquí, "nombre" es la etiqueta, y "oso de peluche" es el valor. Es como decirle a la computadora: "**Hey, tengo un juguete. Es un oso de peluche. Es marrón y pequeño.**" 🧸🌈
+
+En resumen, JSON es una caja mágica que guarda información de manera ordenada para que las computadoras puedan entenderse y compartir datos. 🎁🔍 ¡Es como contarle a las computadoras sobre tus juguetes de la manera más divertida! 😊🚀
+
+## En resumen...
+
+### Peticiones HTTP:
+
+Las peticiones HTTP son mensajes que las computadoras usan para pedir o enviar información en la web. Es como enviar cartas para obtener o compartir datos.
+
+### Formato JSON:
+
+JSON (JavaScript Object Notation) es un formato para organizar información. Funciona como una caja mágica que guarda datos con etiquetas y valores, facilitando que las computadoras se entiendan entre sí. 📦💬
 
 # 🧪 Recursos  🧪
 - [json-server](https://www.npmjs.com/package/json-server)
