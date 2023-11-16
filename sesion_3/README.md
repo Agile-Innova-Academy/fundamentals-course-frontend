@@ -1,9 +1,5 @@
 # 🧪 Fundamentals -Frontend- Sesión 03  🧪
 
-<p style="color:#32ce66; font-size: 25px; text-align:center;"> 👋🏼 ¡Bienvenido  Front-end de Fundamentals! 👋🏼 </p>
-
-<p style="color:#00a7d3; font-size: 20px; text-align:center;"> ⚠️  ¡Antes de empezar tu reto lee detenidamente la siguiente información! ⚠️ </p>
-
 ## Descripción general 
 
 # Fronte-end - Sesión 03
@@ -15,13 +11,25 @@ En este repositorio es destinado a profundizar en los conceptos de JavaScript y 
     - Manejo de estilos con Sass 
 
 
-Además vas a tener **reto o Tarea diaria** donde podrá demostrar los conocimientos de la sesión y del tema anterior, donde vas a poner en evidencia tus conocimientos de diseño web con HTML y CSS creando una web dinámica integrando Javascript
+### Promesas:
 
-De esta manera buscamos que tengas los conocimientos mínimos y necesarios.
+Imagina que le pides a tu amigo que te traiga un helado, pero no sabes exactamente cuándo lo traerá. ¡Una **promesa** es como eso en el mundo de las computadoras! Es un amigo que te dice, "**Voy a conseguirte ese helado**, y cuando lo tenga, ¡te lo daré!" 🍦✨
 
+En JavaScript, las **promesas** son como promesas mágicas que las computadoras hacen para hacer algo y luego te dicen si lo lograron o si tuvieron algún problema. ¡Es como esperar emocionado a que tu amigo regrese con el helado prometido! 🤞🎉
 
-<p style="color:#00a7d3; font-size: 20px; text-align:center;"> ⚠️  ¡Debes investigar por tu cuenta, recuerda que Google es tu mejor aliado!⚠️ </p>
+### Módulos en JavaScript:
 
+A veces, tu caja de juguetes se vuelve muy grande y desordenada. 😱 ¡Los **módulos** en JavaScript son como separar tus juguetes en cajas más pequeñas para que sea más fácil encontrar lo que necesitas! 📦🔍 Puedes tener una caja para carritos, otra para muñecas, ¡y así sucesivamente! 
+
+Cada caja (o módulo) tiene lo suyo y puedes llevar solo la caja que necesitas en ese momento. ¡Ordenado y fácil! 🚗🎀
+
+### SASS:
+
+**SASS** es como una varita mágica para cambiar los colores y estilos de tus juguetes favoritos. 🌈✨ En lugar de decir "rojo" una y otra vez, ¡con SASS solo dices "color mágico" y puedes cambiarlo a cualquier color que desees! 🎨🧙
+
+Es como si tus juguetes pudieran tener trajes diferentes y tú solo tuvieras que decir, "**¡Quiero que todos mis juguetes tengan trajes brillantes!**" y ¡listo, todos brillan! ✨👗
+
+En resumen, las **promesas** son como amigos que prometen hacer algo, **módulos** en JavaScript son cajas ordenadas para organizar tus juguetes (código), y **SASS** es como una varita mágica para darle trajes geniales a tus juguetes (estilos). ¡Así es como las computadoras y los juguetes se vuelven aún más increíbles! 🚀🎉
 
 
 # 🧪 Recursos  🧪
