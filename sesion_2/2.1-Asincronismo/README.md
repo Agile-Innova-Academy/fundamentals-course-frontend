@@ -37,15 +37,15 @@ Cuando llamamos a una función asíncrona implementada con este patrón, nos dev
 
 A resumidas cuentas, una promesa es un objeto al que le adjuntamos callbacks, en lugar de pasarlos directamente a la función asíncrona. La forma en que registramos esos dos callbacks es mediante el método .then(resolveCallback, rejectCallback). En terminología de promesas, decimos que una promesa se resuelve con éxito (resolved) o se rechaza con fallo (rejected).
 
-~~~
+```javascript
 fetch(document.URL.toString())
   .then(result => console.log(result),
     e => console.log(`Error capturado:  ${e}`));
-~~~
+```
 
 Una característica interesante de las promesas es que pueden ser encadenadas. Esto es posible gracias a que la llamada .then() también devuelve una promesa. Esta nueva promesa devuelta será resuelta con el valor que retorne el callback de resolución original (el que hemos pasado al primer then()):
 
-~~~
+```javascript
 fetch(document.URL.toString())
   .then(result => {
     console.log(result);
@@ -54,21 +54,21 @@ fetch(document.URL.toString())
     e => console.log(`Error capturado:  ${e}`))
   .then(result => console.log(`Segundo Then despues de ${result}: La página ya ha debido ser mostrada`),
     e => console.log(`Error capturado:  ${e}`));
-~~~
+```
 
 Para evitar verbosidad, podemos encadenar las promesas de un modo mas corto, empleando el método .catch(rejectCallback) para catpurar cualquier rechazo que ocurra en cualesquiera de las promesas encadenadas. catch(rejectCallback) es equivalente a .then(null, rejectCallback). Solo se necesita una única sentencia catch() al final de una cadena de promesas:
 
-~~~
+```javascript
 fetch(document.URL.toString())
   .then(result => console.log(result))
   .then(() => console.log(`Fetch completado, página mostrada`))
   .catch(e => console.log(`Error capturado:  ${e}`));
-~~~
+```
 
 En el ejemplo anterior, pedimos al servidor que nos provea una URL utilizando la función asíncrona fetch y nos devuelve una promesa. Configuramos la promesa con dos callbacks: uno para resolver la promesa, que mostrará la página por consola en caso de éxito, y otro para rechazarla en caso de fallo que mostrará el error asociado.
 
 Cuando tenemos varias promesas y queremos que se resuelvan todas podemos hacerlo como en el siguiente ejemplo:
-~~~
+```javascript
 const p1 = fetch("URL1_Aqui");
 const p2 = fetch("URL2_Aqui");
 const p3 = fetch("URL3_Aqui");
@@ -76,7 +76,7 @@ const p3 = fetch("URL3_Aqui");
 Promise.all([p1, p2, p3])
   .then(resultArray => console.log(resultArray))
   .catch(e => console.log(`Error capturado:  ${e}`));
-~~~
+```
 
 Lo anterior es muy útil al momento de querer realizar instrucciones asincronas dentro de estructuras como .map, .filter o foreach. 
 
@@ -87,7 +87,7 @@ Las promesas supusieron un gran salto en Javascript al introducir una mejora sus
 La etiqueta async declara una función como asíncrona e indica que una promesa será automáticamente devuelta. Podemos declarar como async tanto funciones con nombre, anónimas, o funciones flecha. Por otro lado, await debe ser usado siempre dentro de una función declarada como async y esperará automáticamente (de forma asíncrona y no bloqueante) a que una promesa se resuelva.
 
 Ejemplo:
-~~~
+```javascript
 const checkServerWithSugar = async (url) => {
   const response = await fetch(url);
   return `Estado del Servidor: ${response.status === 200 ? "OK" : "NOT OK"}`;
@@ -96,7 +96,7 @@ const checkServerWithSugar = async (url) => {
 checkServerWithSugar(document.URL.toString())
   .then(result => console.log(result))
   .catch(e => console.log(`Error Capturado Fuera de la función async: ${e}`));
-~~~
+```
 
 ## Más información
 1. https://lemoncode.net/lemoncode-blog/2018/1/29/javascript-asincrono
