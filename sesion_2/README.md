@@ -1,9 +1,5 @@
 # 🧪 Fundamentals -Frontend- Sesión 02  🧪
 
-<p style="color:#32ce66; font-size: 25px; text-align:center;"> 👋🏼 ¡Bienvenido  Front-end de Fundamentals! 👋🏼 </p>
-
-<p style="color:#00a7d3; font-size: 20px; text-align:center;"> ⚠️  ¡Antes de empezar tu reto lee detenidamente la siguiente información! ⚠️ </p>
-
 ## Descripción general 
 
 # Fronte-end - Sesión 02
@@ -12,16 +8,24 @@ En este repositorio es destinado a profundizar en los conceptos de JavaScript y 
 
     - Asincronismo 
     - Objetos
+    
+## Asincronismo en JavaScript:
 
+Imagina que estás esperando a que tu helado se haga, pero no quieres quedarte quieto. ¡El asincronismo en JavaScript es como eso! Es hacer cosas emocionantes mientras esperas que algo termine. 🍦🏃‍♂️
 
-Además vas a tener **reto o Tarea diaria** donde podrá demostrar los conocimientos de la sesión y del tema anterior, donde vas a poner en evidencia tus conocimientos de diseño web con HTML y CSS creando una web dinámica integrando Javascript
+En lugar de quedarse quieto, JavaScript puede hacer varias cosas al mismo tiempo. Por ejemplo, puedes pedirle a tu amiguito JavaScript que haga dos cosas: que prepare el helado y que cuente tus bloques de construcción. ¡Así, todo se hace de manera divertida y rápida! 🚀👷‍♂️
 
-De esta manera buscamos que tengas los conocimientos mínimos y necesarios.
+## Objetos en JavaScript:
 
+Un objeto en JavaScript es como una caja mágica que guarda muchas cosas. 📦✨ Cada cosa dentro de la caja tiene un nombre y un propósito, ¡como tus juguetes favoritos! 🧸💖
 
-<p style="color:#00a7d3; font-size: 20px; text-align:center;"> ⚠️  ¡Debes investigar por tu cuenta, recuerda que Google es tu mejor aliado!⚠️ </p>
+Por ejemplo, si tienes una caja llamada "oso", dentro podrías tener un "color" (marrón), un "tamaño" (pequeño) y muchas cosas más. Así, cuando necesitas saber sobre tu oso, solo preguntas a la caja, "¿Cómo es el oso?" y ¡listo! 🐻🌟
 
+## En resumen... 
 
+Asincronismo es hacer cosas emocionantes mientras esperas, y objetos en JavaScript son como cajas mágicas que guardan cosas importantes. 
+
+**¡Así, la magia de la programación hace que todo sea increíblemente divertido! 🚀🎉**
 
 # 🧪 Recursos  🧪
 - [JS](https://lenguajejs.com/javascript/)
