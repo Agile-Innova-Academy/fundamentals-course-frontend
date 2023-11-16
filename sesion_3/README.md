@@ -29,7 +29,9 @@ Cada caja (o módulo) tiene lo suyo y puedes llevar solo la caja que necesitas e
 
 Es como si tus juguetes pudieran tener trajes diferentes y tú solo tuvieras que decir, "**¡Quiero que todos mis juguetes tengan trajes brillantes!**" y ¡listo, todos brillan! ✨👗
 
-En resumen, las **promesas** son como amigos que prometen hacer algo, **módulos** en JavaScript son cajas ordenadas para organizar tus juguetes (código), y **SASS** es como una varita mágica para darle trajes geniales a tus juguetes (estilos). ¡Así es como las computadoras y los juguetes se vuelven aún más increíbles! 🚀🎉
+### En resumen...
+
+Las **promesas** son como amigos que prometen hacer algo, **módulos** en JavaScript son cajas ordenadas para organizar tus juguetes (código), y **SASS** es como una varita mágica para darle trajes geniales a tus juguetes (estilos). ¡Así es como las computadoras y los juguetes se vuelven aún más increíbles! 🚀🎉
 
 
 # 🧪 Recursos  🧪
