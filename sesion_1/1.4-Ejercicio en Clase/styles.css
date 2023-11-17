@@ -1,0 +1,100 @@
+:root {
+  --primary: rgb(157, 246, 119);
+  --secondary: rgb(193, 240, 174);
+  --light: rgb(224, 247, 214);
+  --dark: rgb(6, 20, 0);
+  --diabled: rgb(37, 38, 37);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos Header */
+.title {
+  text-align: center;
+  font-size: 38px;
+  margin-top: 30px;
+}
+/* Estilos del formulario para agregar tareas */
+.formAdd {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  margin: 30px auto auto;
+  background-color: var(--light);
+  width: max-content;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.titleTask {
+  padding: 10px;
+  font-size: 14px;
+  outline: none;
+  border-radius: 10px;
+  border: none;
+}
+
+.dateTask {
+  padding: 10px;
+  font-size: 14px;
+  outline: none;
+  border-radius: 10px;
+  border: none;
+  width: 90%;
+}
+
+.btnAddTask {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--primary);
+  font-weight: 700;
+  cursor: pointer;
+  color: var(--diabled);
+}
+
+/* Estilos del los filtros */
+.filterSection {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 20px;
+}
+
+.btnFilter {
+  padding: 15px;
+  cursor: pointer;
+  border: none;
+  background-color: var(--primary);
+  color: var(--diabled);
+  border-radius: 10px;
+}
+
+/* Estilos de la lista de tareas */
+.contTaks {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.contTask {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.btnDelete {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--secondary);
+  font-weight: 700;
+  cursor: pointer;
+}
