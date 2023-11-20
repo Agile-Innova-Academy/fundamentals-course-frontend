@@ -1,0 +1,10 @@
+body {
+  margin: 10px;
+  background-color: rgb(233, 244, 241);
+}
+
+.card {
+    margin: 10px;
+    padding: 8px;
+    background: rgb(210, 242, 158);
+}
