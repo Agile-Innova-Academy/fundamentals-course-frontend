@@ -1,0 +1,140 @@
+.box2 h1 {
+  color: rgb(96, 96, 234);
+}
+.box2 p {
+  color: rgb(237, 164, 237);
+  font-family: sans-serif;
+  font-weight: 800;
+}
+
+body {
+  background: pink;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin: 5px;
+}
+
+.box {
+  background: blue;
+  border: 6px solid black;
+  box-shadow: 0px 0px 3px black;
+  color: rgb(181, 181, 234);
+  margin: 10px;
+  padding: 10px;
+  width: 500px;
+}
+
+.box3 {
+  background: yellow;
+  border: 6px solid black;
+  box-shadow: 0px 0px 3px black;
+  color: red;
+  margin: 10px;
+  padding: 10px;
+  width: 700px;
+}
+
+.box2 {
+  background: rgb(238, 238, 194);
+  border: 6px solid black;
+  box-shadow: 0px 0px 3px black;
+  color: rgb(181, 181, 234);
+  margin: 10px;
+  padding: 10px;
+  width: 600px;
+}
+
+header {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: purple;
+}
+
+h1 {
+  color: aliceblue;
+}
+
+.search {
+  background-color: transparent;
+  border: 2px solid pink;
+  border-radius: 50px;
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  color: #fff;
+}
+
+.search::placeholder {
+  color: #7378c5;
+}
+
+.search:focus {
+  outline: none;
+  background-color: pink;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.pokemon {
+  width: 200px;
+  margin: 1rem;
+  padding: 10px;
+  background-color: purple;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 4px black;
+  border-radius: 5px;
+}
+.pokemon img {
+  width: 100%;
+}
+
+.pokemon-info {
+  color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem 1rem;
+  letter-spacing: 0.5px;
+}
+.pokemon-info h3 {
+  margin-top: 0;
+}
+.pokemon-info span {
+  background-color: rgb(181, 181, 234);
+  padding: 10px;
+  border-radius: 3px;
+  font-weight: bold;
+}
+.pokemon-info span .green {
+  color: rgb(7, 7, 7);
+}
+.pokemon-info span .orange {
+  color: orange;
+}
+.pokemon-info span .red {
+  color: red;
+}
+
+.overview {
+  background-color: #fff;
+  padding: 2rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  max-height: 100%;
+  transform: translateY(101%);
+  transition: transform 0.3s ease-in;
+}
+
+.pokemon:hover .overview {
+  transform: translateY(0);
+}
+
+/*# sourceMappingURL=mainTranspilado.css.map */

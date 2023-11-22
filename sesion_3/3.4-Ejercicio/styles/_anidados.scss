@@ -1,0 +1,15 @@
+
+$color-dos: rgb(237, 164, 237);
+$color-fuente: rgb(96, 96, 234);
+//Anidación
+
+.box2 {
+  h1 {
+    color: $color-fuente;
+  }
+  p {
+    color: $color-dos;
+    font-family: sans-serif;
+    font-weight: 800;
+  }
+}

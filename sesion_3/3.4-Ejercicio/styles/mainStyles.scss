@@ -1,0 +1,138 @@
+//Usos de Módulos
+@use "anidados";
+// Variables
+
+$color-principal: pink;
+$color-dos: purple;
+$color-fuente: rgb(181, 181, 234);
+
+body {
+  background: $color-principal;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin: 5px;
+}
+
+// Mixins
+
+@mixin box_end($fondo: blue, $color: $color-fuente, $w: 100px) {
+  background: $fondo;
+  border: 6px solid black;
+  box-shadow: 0px 0px 3px black;
+  color: $color;
+  margin: 10px;
+  padding: 10px;
+  width: 400px + $w;
+}
+
+.box {
+  @include box_end();
+}
+
+.box3 {
+  @include box_end($fondo: yellow, $color: red, $w: 300px);
+}
+
+.box2 {
+  @include box_end($fondo: rgb(238, 238, 194), $w: 200px);
+}
+
+// ===============Estilos del Ejercicio de Pokemon=========================//
+
+header {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: $color-dos;
+}
+
+h1 {
+  color: aliceblue;
+}
+
+.search {
+  background-color: transparent;
+  border: 2px solid $color-principal;
+  border-radius: 50px;
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  color: #fff;
+}
+
+.search::placeholder {
+  color: #7378c5;
+}
+
+.search:focus {
+  outline: none;
+  background-color: $color-principal;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.pokemon {
+  width: 200px;
+  margin: 1rem;
+  padding: 10px;
+  background-color: $color-dos;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 4px black;
+  border-radius: 5px;
+  img {
+    width: 100%;
+  }
+}
+
+.pokemon-info {
+  color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem 1rem;
+  letter-spacing: 0.5px;
+
+  h3 {
+    margin-top: 0;
+  }
+
+  span {
+    background-color: $color-fuente;
+    padding: 10px;
+    border-radius: 3px;
+    font-weight: bold;
+
+    .green {
+      color: rgb(7, 7, 7);
+    }
+
+    .orange {
+      color: orange;
+    }
+
+    .red {
+      color: red;
+    }
+  }
+}
+
+.overview {
+  background-color: #fff;
+  padding: 2rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  max-height: 100%;
+  transform: translateY(101%);
+  transition: transform 0.3s ease-in;
+}
+
+.pokemon:hover .overview {
+  transform: translateY(0);
+}
