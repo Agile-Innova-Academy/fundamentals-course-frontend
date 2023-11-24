@@ -1,0 +1,25 @@
+{
+    "marvel" : [
+      {
+        "id": 1,
+        "nombre": "Marvel 1",
+        "apodo": "Apodo 1",
+        "imagen": "https://superheroesaddicts.com/wp-content/uploads/comics-de-capitana-marvel.jpg",
+        "hitoria": "Lorem Ipsum is simply cummy text of the printing and typesetting industry., Lorem Ipsum is simply cummy text of the printing and typesetting industry."
+      },
+      {
+        "id": 2,
+        "nombre": "Marvel 1",
+        "apodo": "Apodo 1",
+        "imagen": "https://superheroesaddicts.com/wp-content/uploads/comics-de-capitana-marvel.jpg",
+        "hitoria": "Lorem Ipsum is simply cummy text of the printing and typesetting industry., Lorem Ipsum is simply cummy text of the printing and typesetting industry."
+      },
+      {
+        "id": 3,
+        "nombre": "Marvel 1",
+        "apodo": "Apodo 1",
+        "imagen": "https://superheroesaddicts.com/wp-content/uploads/comics-de-capitana-marvel.jpg",
+        "hitoria": "Lorem Ipsum is simply cummy text of the printing and typesetting industry., Lorem Ipsum is simply cummy text of the printing and typesetting industry."
+      }
+    ]
+}
