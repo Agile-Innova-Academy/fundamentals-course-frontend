@@ -1,25 +1,76 @@
 {
-    "marvel" : [
-      {
-        "id": 1,
-        "nombre": "Marvel 1",
-        "apodo": "Apodo 1",
-        "imagen": "https://superheroesaddicts.com/wp-content/uploads/comics-de-capitana-marvel.jpg",
-        "hitoria": "Lorem Ipsum is simply cummy text of the printing and typesetting industry., Lorem Ipsum is simply cummy text of the printing and typesetting industry."
-      },
-      {
-        "id": 2,
-        "nombre": "Marvel 1",
-        "apodo": "Apodo 1",
-        "imagen": "https://superheroesaddicts.com/wp-content/uploads/comics-de-capitana-marvel.jpg",
-        "hitoria": "Lorem Ipsum is simply cummy text of the printing and typesetting industry., Lorem Ipsum is simply cummy text of the printing and typesetting industry."
-      },
-      {
-        "id": 3,
-        "nombre": "Marvel 1",
-        "apodo": "Apodo 1",
-        "imagen": "https://superheroesaddicts.com/wp-content/uploads/comics-de-capitana-marvel.jpg",
-        "hitoria": "Lorem Ipsum is simply cummy text of the printing and typesetting industry., Lorem Ipsum is simply cummy text of the printing and typesetting industry."
-      }
-    ]
+  "marvel": [
+    {
+      "id": 1,
+      "nombre": "Marvel 1",
+      "apodo": "Apodo 1",
+      "imagen": "https://superheroesaddicts.com/wp-content/uploads/comics-de-capitana-marvel.jpg",
+      "hitoria": "Lorem Ipsum is simply cummy text of the printing and typesetting industry., Lorem Ipsum is simply cummy text of the printing and typesetting industry."
+    },
+    {
+      "id": 2,
+      "nombre": "Marvel 2",
+      "apodo": "Apodo 1",
+      "imagen": "https://superheroesaddicts.com/wp-content/uploads/comics-de-capitana-marvel.jpg",
+      "hitoria": "Lorem Ipsum is simply cummy text of the printing and typesetting industry., Lorem Ipsum is simply cummy text of the printing and typesetting industry."
+    },
+    {
+      "id": 3,
+      "nombre": "Marvel 3",
+      "apodo": "Apodo 1",
+      "imagen": "https://superheroesaddicts.com/wp-content/uploads/comics-de-capitana-marvel.jpg",
+      "hitoria": "Lorem Ipsum is simply cummy text of the printing and typesetting industry., Lorem Ipsum is simply cummy text of the printing and typesetting industry."
+    },
+    {
+      "id": "4-Ac",
+      "nombre": "Marvel 4",
+      "apodo": "Apodo 4",
+      "imagen": "https://superheroesaddicts.com/wp-content/uploads/comics-de-capitana-marvel.jpg",
+      "hitoria": "Lorem Ipsum is simply cummy text of the printing and typesetting industry., Lorem Ipsum is simply cummy text of the printing and typesetting industry."
+    },
+    {
+      "id": 5,
+      "nombre": "Marvel 5",
+      "apodo": "Apodo 5",
+      "imagen": "https://superheroesaddicts.com/wp-content/uploads/comics-de-capitana-marvel.jpg",
+      "hitoria": "Lorem Ipsum is simply cummy text of the printing and typesetting industry., Lorem Ipsum is simply cummy text of the printing and typesetting industry."
+    }
+  ],
+  "dc": [
+    {
+      "id": 1,
+      "nombre": "Dc 1",
+      "apodo": "Apodo 1",
+      "imagen": "https://dam.smashmexico.com.mx/wp-content/uploads/2019/03/shazam-portada.jpg",
+      "hitoria": "Lorem Ipsum is simply cummy text of the printing and typesetting industry., Lorem Ipsum is simply cummy text of the printing and typesetting industry."
+    },
+    {
+      "id": 2,
+      "nombre": "DC 1",
+      "apodo": "Apodo 1",
+      "imagen": "https://dam.smashmexico.com.mx/wp-content/uploads/2019/03/shazam-portada.jpg",
+      "hitoria": "Lorem Ipsum is simply cummy text of the printing and typesetting industry., Lorem Ipsum is simply cummy text of the printing and typesetting industry."
+    },
+    {
+      "id": 3,
+      "nombre": "DC 1",
+      "apodo": "Apodo 1",
+      "imagen": "https://dam.smashmexico.com.mx/wp-content/uploads/2019/03/shazam-portada.jpg",
+      "hitoria": "Lorem Ipsum is simply cummy text of the printing and typesetting industry., Lorem Ipsum is simply cummy text of the printing and typesetting industry."
+    }
+  ],
+  "user": [
+    {
+      "id": 2,
+      "nombre": "Yudith Leon V",
+      "email": "yudith@yopmail.com",
+      "edad": "20"
+    },
+    {
+      "nombre": "Pedro",
+      "email": "pedro@yopmail.com",
+      "edad": "20",
+      "id": "b34fade8-95f5-46af-959c-aac192202158"
+    }
+  ]
 }
